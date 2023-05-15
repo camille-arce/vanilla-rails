@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @activity.name %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @activity.image %>
+</p>
+
+<p>
+  <strong>Equipments:</strong>
+  <%= @activity.equipments %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @activity.description %>
+</p>
+
+<p>
+  <strong>Target muscle:</strong>
+  <%= @activity.target_muscle %>
+</p>
+
+<p>
+  <strong>Muscle group:</strong>
+  <%= @activity.muscle_group %>
+</p>
+
+<%= link_to 'Edit', edit_activity_path(@activity) %> |
+<%= link_to 'Back', activities_path %>
